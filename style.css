@@ -4,50 +4,166 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:"wdth" 100;
-    text-decoration:none;
     list-style:none;
-    color:rgb(24, 24, 24);
+    text-decoration:none;
+    color: rgb(24, 24, 24);
 }
 
-/* global-button */
-.global-btn{
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:"wdth" 100;
+}
+
+/* ---------------------------------shared-style----------------------------------- */
+.flex{
+    display:flex;
+    align-items:center;
+}
+
+
+.btn{
     border-radius: 5px;
     background: rgb(253, 110, 10);
-    padding:13px 15px;
     border:none;
-    color:#fff;
-    font-weight:700;
-    font-size:19px;
+    padding:18px 17px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-right:30px;
     cursor:pointer;
 }
 
-.nav-bar{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    padding:30px 150px;
+.btn i{
+    color: rgb(255, 255, 255);
 }
 
-.nav-bar .main-menu li{
-    display:inline;
-    margin:0 24px;
-}
-
-.nav-bar .main-menu li a{
-    color: rgb(71, 71, 71);
-    font-size:19px;
-}
-
-.nav-bar .nav-title{
-    font-size:43.2px;
-    font-weight:800;
-}
-
-.nav-bar .nav-title span{
+.secondary-btn{
+    background:none;
+    border: 1px solid rgb(253, 110, 10);
     color:rgb(253, 110, 10);
 }
+
+.secondary-btn i{
+    color:rgb(253, 110, 10);
+}
+
+
+/* ----------------------------------header-section------------------------------------- */
+
+.header{
+    background: rgb(255, 248, 243);
+    background-size:cover;
+}
+
+.header-area{
+    max-width:1536px;
+    margin:0 auto;
+    position:relative;
+}
+
+.header .navbar{
+    justify-content:space-between;
+    padding:3rem 15%;
+}
+
+.header .navbar h1{
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 61px;
+}
+
+.header .navbar span{
+    color:rgb(253, 110, 10);
+}
+
+.header .nav-menu{
+    gap:2rem;
+}
+
+.header .nav-menu li a{
+    color: rgb(71, 71, 71);
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.header .nav-menu li button{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    border:none;
+    padding:1rem 1.5rem;
+}
+
+.header .nav-menu li button a{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 1.2rem;
+}
+
+/* -----------------banner-section---------------------- */
+.banner-section{
+    justify-content:space-between;
+    margin-left:230px;
+    position:relative;
+}
+
+.banner-section .banner-details{
+   width:50%;
+}
+
+.banner-section .banner-details h3{
+    color: rgb(71, 71, 71);
+    font-size: 2.8rem;
+    font-weight: 600;
+    line-height: 3.2rem;
+}
+
+
+.banner-section .banner-details h1{
+    font-size: 5rem;
+    font-weight: 700;
+    line-height: 7.5rem;
+    margin-bottom:1.2rem;
+}
+
+.banner-section .banner-details p{
+    color: rgb(117, 117, 117);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom:1.8rem;
+}
+
+.banner-section .banner-img{
+    width:42%;
+    z-index:5;
+} 
+
+
+.banner-section .banner-img img{
+    width:100%;
+}
+
+
+.developer-img{
+    position:absolute;
+    top:3rem;
+    left:.5rem;
+}
+
+
+.header-bg{
+    position:absolute;
+    top:365px;
+    left:768px;
+}
+
+
+
+
+
+
 
