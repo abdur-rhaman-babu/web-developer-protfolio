@@ -23,6 +23,25 @@
 }
 
 
+p{
+    color: rgb(117, 117, 117);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.main-title{
+    text-align:center;
+}
+
+.main-title h3{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    margin-bottom:1.8rem;
+}
+
+
 .btn{
     border-radius: 5px;
     background: rgb(253, 110, 10);
@@ -50,6 +69,10 @@
     color:rgb(253, 110, 10);
 }
 
+main section{
+    max-width:1100px;
+    margin:120px auto;
+}
 
 /* ----------------------------------header-section------------------------------------- */
 
@@ -130,10 +153,6 @@
 }
 
 .banner-section .banner-details p{
-    color: rgb(117, 117, 117);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5rem;
     margin-bottom:1.8rem;
 }
 
@@ -161,9 +180,31 @@
     left:768px;
 }
 
+/* --------------------about-section------------------------- */
+.about-section{
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding:7.5rem;
+    text-align:center;
+}
 
+.about-address{
+    justify-content:center;
+    margin-top:1.8rem;
+    gap:3rem;
+}
 
+.about-address > div h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
 
+.about-address > div p{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+}
 
 
 
