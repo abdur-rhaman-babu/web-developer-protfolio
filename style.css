@@ -32,6 +32,7 @@ p{
 
 .main-title{
     text-align:center;
+    margin-bottom:2rem;
 }
 
 .main-title h3{
@@ -205,6 +206,72 @@ main section{
     font-weight: 700;
     line-height: 1.8rem;
 }
+
+
+/* --------feature-section------------------------ */
+.feature-section .main-title{
+    padding:0 6.5rem;
+}
+
+.feature-container{
+    gap:1.5rem;
+}
+.feature-container .feature-card{
+    padding:2rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.feature-container .feature-card h4{
+    margin:1.8rem 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+/* ---------------------resume-container------------------- */
+.reusme-container{
+    align-items:center;
+    justify-content:center;
+    gap:4.5rem;
+}
+
+.reusme-container .resume-card{
+    padding:1.8rem 1rem 1.8rem 0;
+}
+
+.res-heding{
+    color: rgb(71, 71, 71);
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 2.3rem;
+    margin-bottom:.5rem;
+}
+
+.resume-card h4{
+    color: rgb(71, 71, 71);
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom:.5rem;
+}
+
+h3.resume-title{
+    margin-bottom:3.8rem;
+}
+
+.resume-card .res-institute{
+    color: rgb(117, 117, 117);
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    margin-bottom:1.8rem;
+}
+
+.resume-btn{
+    text-align:center;
+   margin-top:3rem;
+}
+
 
 
 
