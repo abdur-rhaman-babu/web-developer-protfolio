@@ -17,6 +17,13 @@
 }
 
 /* ---------------------------------shared-style----------------------------------- */
+.menu-bar{
+    display:none;
+}
+
+.menu-bar i{
+    font-size:1.5rem;
+}
 .flex{
     display:flex;
     align-items:center;
@@ -317,6 +324,7 @@ h3.resume-title{
     border-radius: .5rem;
     outline: none;
     border:none;
+    resize:none;
 }
 
 .footer-title{
@@ -349,3 +357,221 @@ h3.resume-title{
     align-items:center;
     justify-content:center;
 }
+
+.footer-section .footer-right input[type=submit] {
+    width: 150px;
+    height:64px;
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color:#fff;
+    font-weight:700;
+    font-size:20px;
+    cursor: pointer;
+}
+
+.hide{
+    display:none;
+}
+
+@media screen and (max-width:576px) {
+    .menu-bar{
+        display:block;
+    }
+
+    .header .nav-menu{
+        display:none;
+    }
+
+    .header .navbar{
+        padding:2rem 5%;
+    }
+    .banner-section{
+        flex-direction:column-reverse;
+        margin-left:0;
+    }
+
+    .banner-section .banner-details{
+        width:90%;
+        text-align:center;
+     }
+     .banner-section .banner-details h3{
+         font-size: 2rem;
+     }
+     
+     .banner-section .banner-details h1{
+         font-size: 2.5rem;
+         line-height:3.5rem;
+     }
+      
+     .banner-section .banner-img{
+         width:90%;
+     } 
+     
+     .banner-section .banner-img img{
+         width:100%;
+     }
+     
+     .developer-img{
+         display:none;
+     }
+     
+     
+     .header-bg{
+         position:absolute;
+         top:365px;
+         left:768px;
+     }
+
+    .btn{
+    font-size: 1rem;
+    margin-right:.5rem;
+    }
+
+
+    /* ------------responsive-feature --------------*/
+    .feature-container{
+       flex-direction:column;
+    }
+    .feature-container .feature-card{
+        margin:0 .5rem;
+    }
+    .feature-section .main-title{
+        padding:0 1rem;
+    }
+
+    /* ----------------responsive-about------------- */
+    .about-address{
+        flex-direction:column;
+    }
+
+    .about-section{
+        padding:1rem;
+    }
+
+    /*-------------- footer-section -------------*/
+    .footer-section{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-right{
+        padding:1rem;
+    }
+
+    .footer-section .footer-right form input,
+    .footer-section .footer-right form textarea {
+        width: 450px;
+    }
+
+    /* resume-responsive */
+
+    .reusme-container{
+        flex-direction:column;
+    }
+
+    .reusme-container .resume-card{
+        padding:1rem;
+        text-align:center;
+    }
+
+    .res-heding{
+        text-align:center;
+    }
+
+    .resume-btn{
+        margin-left:2rem;
+    }
+}
+
+
+
+/* @media screen and (min-width:576px) and (max-width:992px) */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    /* banner-responsive */
+    
+    /* --------------feature-section------------ */
+    .feature-container{
+        flex-direction:column;
+     }
+
+     /* ---------------about-section--------------- */
+     .about-address{
+        flex-direction:column;
+    }
+
+    .about-section{
+        padding:1rem;
+    }
+
+    /* -------------------footer-section------------------ */
+    .footer-section{
+        flex-direction: column;
+    }
+
+    .footer-left,
+    .footer-right{
+        padding:2rem;
+    }
+
+    .footer-section .footer-right form input,
+    .footer-section .footer-right form textarea {
+        width:775px;
+    }
+
+    /* resume-responsive */
+
+    .reusme-container{
+        flex-direction:column;
+    }
+
+    .reusme-container .resume-card{
+        padding:1rem;
+        text-align:center;
+    }
+
+    .res-heding{
+        text-align:center;
+    }
+
+    .resume-btn{
+        margin-left:2rem;
+    }
+
+    .header .navbar{
+        padding:2rem 5%;
+    }
+
+    .banner-section{
+        flex-direction:column-reverse;
+        margin-left:0;
+    }
+
+    .banner-section .banner-details{
+        width:90%;
+        text-align:center;
+     }
+
+     .banner-section .banner-details h1{
+         font-size: 3.5rem;
+         line-height:4.5rem;
+     }
+      
+     .banner-section .banner-img{
+         width:90%;
+     } 
+     
+     .developer-img{
+         display:none;
+     }
+     
+     .header-bg{
+         display:none;
+     }
+
+}
+
+
+
+
+
